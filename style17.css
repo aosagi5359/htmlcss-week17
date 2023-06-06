@@ -42,3 +42,37 @@ li{
     0 0 13px #f03,
     0 0 13px #f03 ;
 }
+.ts07{
+    -webkit-text-stroke: 1px #fff;
+}
+body {
+    background-color: #ddd;
+}
+.grad01{
+    background:  linear-gradient(to bottom, #f33, #fff);
+}
+.grad02{
+    background:  linear-gradient(to right, #f36 0%, #fff 50%, #f63 100%);
+
+}
+.grad03{
+    background:  linear-gradient(to right bottom, #f36 0%, #fff 50%, #f63 100%);
+
+}
+#img1 {
+    filter: grayscale(100%);
+}
+
+
+#img2 {
+    filter: hue-rotate(60deg)
+}
+
+
+#img3 {
+    filter: blur(5px)
+}
+
+
+
+
