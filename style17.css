@@ -7,7 +7,38 @@ li{
 .ts01{
     text-shadow: 2px 2px 3px #141111;
 }
-.ts02{
-    color: #9b1c1c;
-    text-shadow: 0px 0px 0px #000000;
+.ts02 {
+    color: #fff;
+    text-shadow: 0px 0px 5px #999;
+}
+
+
+.ts03 {
+    color: #ccc;
+    text-shadow: -1px -1px 0 #fff, 1px 1px 0 #aaa;  
+}
+
+
+.ts04 {
+    color: #ccc;
+    text-shadow: -1px -1px 0 #aaa, 1px 1px 0 #fff;
+}
+
+
+.ts05 {
+    color: #fff;
+    text-shadow: 1px 1px 0 #999,
+     -1px 1px 0 #999,
+     -1px -1px 0 #999,
+     1px -1px 0 #999 ;
+}
+
+
+.ts06 {
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 13px #f03,
+    0 0 13px #f03,
+    0 0 13px #f03 ;
 }
